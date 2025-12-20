@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+
+<h1>Consultation, Design & Marketing</h1>
+<!--Contact-->
+<form id="contactForm">
+    <input type="text" id="name" placeholder="Full Name" required />
+    <input type="email" id="email" placeholder="Email Email Address" required />
+    <input type="text" id="mobile" placeholder="Mobile Number" required />
+    <input type="text" id="city" placeholder="Area, City" required />
+    <button type="submit" class="btn">Submit</button>
+</form>
+
+<!--Choose Us-->
+<h1>Why Choose Us?</h1>
+<div class="static-section">
+    <p><strong>Potential ROI:</strong> We focus on delivering maximum business value.</p>
+    <p><strong>Design:</strong> Clean, user-focused, and responsive designs.</p>
+    <p><strong>Marketing:</strong> Strategies that help your business grow.</p>
+</div>
+
+<!--About Us-->
+<h1>About Us</h1>
+<div class="static-section">
+    <p>
+        We are a team of professionals providing consultation, design, and marketing
+        solutions to help businesses scale efficiently and effectively.
+    </p>
+</div>
+
+<!--All Project-->
+<h1>Our Projects</h1>
+<div id="projects" class="card-container"></div>
+
+<!--Clients-->
+<h1>Happy Clients</h1>
+<div id="clients" class="card-container"></div>
+
+<!--Subscribe-->
+<h1>Subscribe to Newsletter</h1>
+
+<form id="subscribeForm">
+    <input type="email" id="subEmail" placeholder="Enter your email" required />
+    <button type="submit" class="btn">Subscribe</button>
+</form>
+
+<script src="js/api.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

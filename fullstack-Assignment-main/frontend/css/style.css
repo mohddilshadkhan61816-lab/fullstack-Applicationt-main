@@ -1,0 +1,137 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+
+h1, h2 {
+  text-align: center;
+  color: #1e88e5;
+  margin: 30px 0 20px;
+}
+
+
+form {
+  max-width: 400px;
+  margin: 0 auto 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form textarea {
+  resize: none;
+  height: 80px;
+}
+
+
+#contacts,
+#subscribers {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+button,
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.btn,
+form button {
+  background-color: #fb8c00;
+  color: white;
+}
+
+.btn:hover,
+form button:hover {
+  background-color: #ef6c00;
+}
+
+
+
+#contactForm {
+  width: 320px;
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+
+.static-section {
+  max-width: 900px;
+  margin: 0 auto 30px;
+  text-align: center;
+  color: #555;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  width: 260px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card h3 {
+  color: #1e88e5;
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+#subscribeForm {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#subscribeForm input {
+  width: 260px;
+}
